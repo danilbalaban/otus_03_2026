@@ -1,6 +1,7 @@
+class Example:
 
-def example():
-    print("Hello World")
-    a = 10
+    def __init__(self): 
+        self.name = "Daniil"
 
-    return 19
+obj = Example()
+print(obj.name)
